@@ -83,4 +83,7 @@ html {
   .icon-text {
     @apply max-sm:hidden;
   }
+  .main-color{
+    @apply text-neutral-800 
+  }
 }

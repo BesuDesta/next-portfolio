@@ -15,8 +15,8 @@ export default function Header() {
             className="object-cover"
           />
         </div>
-        <div className="max-w-xl">
-          <p className="text-lg text-neutral-800">Nana Kofi Okae</p>
+        <div className="w-full">
+          <p className="text-lg main-color">Nana Kofi Okae</p>
           <p className="text-muted-foreground ">
             Frontend and Design Engineer / designing for fun.
           </p>

@@ -1,11 +1,11 @@
+import About from "@/components/About/About";
 import Header from "@/components/Header/Header";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full max-w-5xl flex flex-col items-center pt-14 p-4 ">
+    <div className="min-h-screen w-full max-w-4xl flex flex-col pt-14 p-4 gap-12 ">
       <Header />
+      <About />
     </div>
   );
 }
