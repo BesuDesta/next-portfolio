@@ -3,7 +3,6 @@ import React from "react";
 import { projects } from "./data";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { motion } from "motion/react";
 
 export default function Projects() {
   return (
