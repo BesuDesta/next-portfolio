@@ -7,8 +7,11 @@ body {
   /* overflow: hidden; */
 }
 
-html {
-  scroll-behavior: smooth;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 @layer base {
@@ -90,13 +93,13 @@ html {
     @apply mb-3 w-full flex flex-col gap-4;
   }
   .section-header {
-    @apply text-muted-foreground text-lg;
+    @apply text-muted-foreground text-xl;
   }
   .text-title {
     @apply md:text-lg font-normal text-neutral-600;
   }
   .company-name {
-    @apply text-sm text-muted-foreground;
+    @apply text-muted-foreground;
   }
   .card-section {
     @apply mt-6;

@@ -8,7 +8,7 @@ interface Experience {
 
 // You can update and add as many experiences you would like
 // If you want to have the current badge, please add the (date - Current) to activate
-export const experience: Experience[] = [
+export const experiences: Experience[] = [
   {
     title: "Software Engineering Intern",
     company: "Acme",
