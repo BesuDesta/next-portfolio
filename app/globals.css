@@ -86,11 +86,11 @@ html {
   .main-color {
     @apply text-neutral-800;
   }
-  .section{
-    @apply mb-3 w-full flex flex-col gap-4
+  .section {
+    @apply mb-3 w-full flex flex-col gap-4;
   }
   .section-header {
-    @apply text-muted-foreground text-lg ;
+    @apply text-muted-foreground text-lg;
   }
   .text-title {
     @apply md:text-lg font-normal text-neutral-600;
@@ -102,6 +102,9 @@ html {
     @apply mt-6;
   }
   .current-date {
-    @apply text-green-600 text-xs bg-green-100 flex items-center gap-1;
+    @apply text-green-600 text-sm bg-green-100 flex items-center gap-1  px-3 py-1 rounded-full;
+  }
+  .footer-container {
+    @apply w-full max-w-4xl  flex md:flex-row flex-col justify-between px-4 py-8;
   }
 }

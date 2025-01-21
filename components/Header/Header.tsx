@@ -23,14 +23,18 @@ export default function Header() {
           {/* You can update and add your links here */}
           <div className="flex flex-wrap  gap-4 mt-2">
             <Link
-              href="https://www.inkedin.com/in/nana-kofi-okae"
+              href="https://www.linkedin.com/in/nana-kofi-okae"
               target="_blank"
               className="icons"
             >
               <Linkedin size={18} />
-              <p className="icon-text"> inkedin.com/in/nana-kofi-okae</p>
+              <p className="icon-text"> linkedin.com/in/nana-kofi-okae</p>
             </Link>
-            <Link href="paste-github-url" target="_blank" className="icons">
+            <Link
+              href="https://github.com/Nan3rC0re/next-portfolio-template"
+              target="_blank"
+              className="icons"
+            >
               <Github size={18} />
               <p className="icon-text"> github.com/Nan3rOkae</p>
             </Link>

@@ -23,7 +23,7 @@ export default function Experience() {
             <div className="flex justify-between items-center ">
               <p className="company-name">{experiences.company}</p>
               <div
-                className={`text-sm px-3 py-1 rounded-full ${
+                className={`${
                   // As long as the word current is included in the date property, you will see the highlighted date.
                   experiences.date?.includes("Current")
                     ? "current-date"
