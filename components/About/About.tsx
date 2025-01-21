@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="w-full">
+    <div className="section">
       <p className="section-header">About</p>
       {/* Replace this p tag with more info about yourself. */}
       <p className="main-color ">

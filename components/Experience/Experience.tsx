@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <div>
+    <div className="section">
       <p className="section-header">Experience</p>
       <div className="flex flex-col gap-8">
         {experience.map((experiences, idx) => (
@@ -24,8 +24,9 @@ export default function Experience() {
               <p className="company-name">{experiences.company}</p>
               <div
                 className={`text-sm px-3 py-1 rounded-full ${
+                  // As long as the word current is included in the date property, you will see the highlighted date.
                   experiences.date?.includes("Current")
-                    ? "text-green-600 text-xs bg-green-100 flex items-center gap-1"
+                    ? "current-date"
                     : "text-muted-foreground"
                 }`}
               >

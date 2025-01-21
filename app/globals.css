@@ -86,8 +86,11 @@ html {
   .main-color {
     @apply text-neutral-800;
   }
+  .section{
+    @apply mb-3 w-full flex flex-col gap-4
+  }
   .section-header {
-    @apply text-muted-foreground text-lg mb-3;
+    @apply text-muted-foreground text-lg ;
   }
   .text-title {
     @apply md:text-lg font-normal text-neutral-600;
@@ -97,5 +100,8 @@ html {
   }
   .card-section {
     @apply mt-6;
+  }
+  .current-date {
+    @apply text-green-600 text-xs bg-green-100 flex items-center gap-1;
   }
 }
