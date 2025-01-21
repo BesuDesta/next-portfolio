@@ -1,10 +1,15 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import About from "@/components/About/About";
+import Experience from "@/components/Experience/Experience";
+import Header from "@/components/Header/Header";
+import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
-    <>
-      <Button>Whats up twin</Button>
-    </>
+    <div className="min-h-screen w-full max-w-4xl flex flex-col pt-14 p-4 gap-12 ">
+      <Header />
+      <About />
+      <Experience />
+      <Projects />
+    </div>
   );
 }
