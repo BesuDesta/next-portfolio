@@ -20,6 +20,7 @@ export default function Header() {
           <p className="text-muted-foreground ">
             Frontend and Design Engineer / designing for fun.
           </p>
+          {/* You can update and add your links here */}
           <div className="flex flex-wrap  gap-4 mt-2">
             <Link
               href="https://www.inkedin.com/in/nana-kofi-okae"

@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 html {
@@ -83,7 +83,19 @@ html {
   .icon-text {
     @apply max-sm:hidden;
   }
-  .main-color{
-    @apply text-neutral-800 
+  .main-color {
+    @apply text-neutral-800;
+  }
+  .section-header {
+    @apply text-muted-foreground text-lg mb-3;
+  }
+  .text-title {
+    @apply md:text-lg font-normal text-neutral-600;
+  }
+  .company-name {
+    @apply text-sm text-muted-foreground;
+  }
+  .card-section {
+    @apply mt-6;
   }
 }
