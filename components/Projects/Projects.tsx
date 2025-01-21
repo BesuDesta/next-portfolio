@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-col md:flex-row justify-between gap-2">
-              <div className="text-sm  flex flex-wrap gap-2 items-center text-muted-foreground">
+              <div className=" text-xs md:text-sm  flex flex-wrap gap-2 items-center text-muted-foreground">
                 {project.stack.map((tech, techIdx) => (
                   <span
                     key={techIdx}
@@ -34,10 +34,10 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              <p className="text-muted-foreground">{project.date}</p>
+              <p className="text-neutral-600 max-sm:text-sm">{project.date}</p>
             </div>
 
-            <p>{project.description}</p>
+            <p className="main-color">{project.description}</p>
           </Link>
         ))}
       </div>

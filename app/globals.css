@@ -87,19 +87,19 @@ body {
     @apply max-sm:hidden;
   }
   .main-color {
-    @apply text-neutral-800;
+    @apply text-muted-foreground;
   }
   .section {
     @apply mb-3 w-full flex flex-col gap-4;
   }
   .section-header {
-    @apply text-muted-foreground text-xl;
+    @apply text-muted-foreground text-xl text-neutral-800;
   }
   .text-title {
-    @apply md:text-lg font-normal text-neutral-600;
+    @apply md:text-lg font-normal text-neutral-800;
   }
   .company-name {
-    @apply text-muted-foreground;
+    @apply text-neutral-600;
   }
   .card-section {
     @apply mt-6;
