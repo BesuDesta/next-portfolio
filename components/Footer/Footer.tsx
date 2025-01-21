@@ -7,10 +7,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="flex items-center gap-2">
           <p className="text-sm text-muted-foreground">Last updated on</p>
-          <span className="current-date text-xs">
-            <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-            January 21st 2025
-          </span>
+          <span className="current-date text-xs">January 21 2025</span>
         </div>
         <p className=" flex gap-1 text-muted-foreground text-sm">
           Made by
