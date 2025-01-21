@@ -16,7 +16,7 @@ export default function Header() {
           />
         </div>
         <div className="w-full">
-          <p className="text-lg main-color">Nana Kofi Okae</p>
+          <p className="text-lg text-neutral-800">Nana Kofi Okae</p>
           <p className="text-muted-foreground ">
             Frontend and Design Engineer / designing for fun.
           </p>
