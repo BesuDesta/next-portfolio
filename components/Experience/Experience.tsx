@@ -27,7 +27,7 @@ export default function Experience() {
                   // As long as the word current is included in the date property, you will see the highlighted date.
                   experience.date?.includes("Current")
                     ? "current-date"
-                    : "text-muted-foreground"
+                    : "text-neutral-600"
                 }`}
               >
                 {experience.date?.includes("Current") && (
@@ -36,7 +36,7 @@ export default function Experience() {
                 {experience.date}
               </div>
             </div>
-            <p>{experience.description}</p>
+            <p className="main-color">{experience.description}</p>
           </div>
         ))}
       </div>

@@ -13,7 +13,7 @@ export default function Footer() {
           Made by
           <Link
             href="https://www.linkedin.com/in/nana-kofi-okae"
-            className="main-color hover:underline "
+            className="text-neutral-800 hover:underline "
           >
             Nana
           </Link>
