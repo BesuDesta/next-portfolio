@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 //Please replace placeholders with your content for SEO
 export const metadata: Metadata = {
-  title: "title",
+  title: "Next.js portfolio template",
   description: "description",
   icons: {
     //icon displayed in the browser tab and bookmarks
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   //openGraph is used by platforms like Facebook, LinkedIn, and others to generate link previews when sharing a page.
   openGraph: {
-    title: "title",
+    title: "Next.js portfolio template",
     description: "description",
     url: "link to deployed portfolio",
     siteName: "sitename",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "title",
+    title: "Next.js portfolio template",
     description: "description",
     images: ["/metadata/<image>"],
   },
