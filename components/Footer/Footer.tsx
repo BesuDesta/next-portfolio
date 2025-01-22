@@ -24,6 +24,7 @@ export default function Footer() {
             Made by
             <Link
               href="https://www.linkedin.com/in/nana-kofi-okae"
+               target="_blank"
               className="text-neutral-800 hover:underline "
             >
               Nana
