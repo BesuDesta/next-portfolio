@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Next.js portfolio template",
     description: "description",
-    url: "link to deployed portfolio",
+    url: "https://next-portfolio-template-og.vercel.app/",
     siteName: "sitename",
     images: [
       {
-        url: "/metadata/<image>",
-        width: 1200,
-        height: 630,
+        url: "/next-template-image.png",
+        width: 756,
+        height: 440,
         alt: "portfolio-image",
       },
     ],
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Next.js portfolio template",
     description: "description",
-    images: ["/metadata/<image>"],
+    images: ["/next-template-image.png"],
   },
 };
 
