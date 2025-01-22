@@ -13,7 +13,7 @@ export default function Experience() {
               <div className="relative border rounded-sm bg-neutral-400 overflow-hidden aspect-square w-8">
                 <Image
                   src={experience.logo}
-                  alt="My headshot/profile image"
+                  alt="company logo"
                   fill
                   className="object-cover"
                 />
