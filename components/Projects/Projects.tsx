@@ -33,7 +33,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              <p className="text-neutral-600 max-sm:text-sm">{project.date}</p>
+              <p className="date-text">{project.date}</p>
             </div>
 
             <p className="main-color">{project.description}</p>

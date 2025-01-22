@@ -105,6 +105,9 @@ body {
   .card-section {
     @apply mt-6;
   }
+  .date-text {
+    @apply text-neutral-600 max-sm:text-sm;
+  }
   .current-date {
     @apply text-green-600 text-sm bg-green-100 flex items-center gap-1  px-3 py-1 rounded-full;
   }

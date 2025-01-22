@@ -4,6 +4,7 @@ import About from "@/components/About/About";
 import Experience from "@/components/Experience/Experience";
 import Header from "@/components/Header/Header";
 import Projects from "@/components/Projects/Projects";
+import Education from "@/components/Education/Education";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     >
       <Header />
       <About />
+      <Education/>
       <Experience />
       <Projects />
     </motion.div>
