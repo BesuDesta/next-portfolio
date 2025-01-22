@@ -49,11 +49,10 @@ bun dev
 
 5. **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**:
 
+**_P.S. When developing and making changes, it's best practice to create a new branch for your work and submit a pull request for review before merging it into the main (or prod) branch. This ensures better collaboration, code quality, and minimizes the risk of introducing errors into production._**
+
 <h1>Navigating this project</h1>
 
-**globals.css**
-
-- The global.css file defines the global styles for the project using Tailwind CSS and custom CSS rules. It is divided into several layers and focuses on the following key functionalities:
 <details>
 <summary><code>globals.css</code></summary>
 
@@ -166,7 +165,7 @@ body {
     @apply mt-6;
   }
   .date-text {
-    @apply text-neutral-600 ;
+    @apply text-neutral-600;
   }
   .current-date {
     @apply text-green-600 bg-green-100 flex items-center gap-1  px-3 py-1 rounded-full;
@@ -175,13 +174,13 @@ body {
     @apply w-full max-w-4xl  flex md:flex-row flex-col justify-between px-4 py-8 gap-4;
   }
 }
-
 ```
 
 </details>
 
-**layout.tsx**
-- The layout.tsx file serves as the main layout component for your Next.js application. It sets up the structure, global styles, and essential metadata for the application, ensuring consistency and SEO optimization across all pages.
+**globals.css:**
+The global.css file defines the global styles for the project using Tailwind CSS and custom CSS rules. It is divided into several layers and focuses on the following key functionalities:
+
 <details>
 <summary><code>layout.tsx</code></summary>
 
@@ -255,13 +254,13 @@ export default function RootLayout({
     </html>
   );
 }
-
 ```
 
 </details>
 
-**data.ts for Experience**
-- The data.ts file in the experience folder is where your information on your experiences go. You can add as many opjects in the array to then get mapped and displayed in the experience component.
+**layout.tsx:**
+The layout.tsx file serves as the main layout component for your Next.js application. It sets up the structure, global styles, and essential metadata for the application, ensuring consistency and SEO optimization across all pages.
+
 <details>
 <summary><code>components/Experience/data.ts</code></summary>
 
@@ -302,14 +301,13 @@ export const experiences: Experience[] = [
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
 ];
-
-
 ```
 
 </details>
 
-**data.ts for Projects**
-- The data.ts file in the projects folder is where your information on your projects go. You can add as many opjects in the array to then get mapped and displayed in the project component.
+**data.ts for Experience:**
+The data.ts file in the experience folder is where your information on your experiences go. You can add as many opjects in the array to then get mapped and displayed in the experience component.
+
 <details>
 <summary><code>components/Projects/data.ts</code></summary>
 
@@ -370,19 +368,62 @@ export const projects: Projects[] = [
     stack: ["Next.js", "Javascript", "Python"],
   },
 ];
-
-
 ```
 
 </details>
 
-**Public folder**
-- The public folder holds all the images, icons, resume, etc, needed for your project. 
+**data.ts for Projects:**
+The data.ts file in the projects folder is where your information on your projects go. You can add as many opjects in the array to then get mapped and displayed in the project component.
 
+**Public folder:**
+The public folder holds all the images, icons, resume, etc, needed for your project.
 
+<h1>Why you should use this template</h1>
 
-## Deploy on Vercel
+1. **Because its cool!**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Clean and scalable code**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Seo optimized**
+
+4. **Great web performance**
+<p >
+  <img src="./public/template-images/performance.png" alt="Project Banner" width="600">
+</p>
+
+5. **Ready to deploy in minutes**
+
+<h1>Deploying on vercel</h1>
+
+[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+**Once you have made all the neccessary changes, you need to run:**
+
+```bash
+npm run build
+```
+
+## Running npm run build is an essential step before deploying because:
+
+1. **Optimized Production Build:**
+
+This command creates an optimized production version of your Next.js application, minimizing file sizes and improving performance for end-users.
+
+2. **Static File Generation:**
+
+If your project includes static pages (e.g., via getStaticProps), this command generates those pages so they can be served efficiently.
+
+3. **Error Detection:**
+
+The build process helps catch potential errors that might occur in production, such as incorrect imports or issues with external dependencies.
+
+4. **Deployment Readiness:**
+
+Most deployment platforms, including Vercel, expect a production-ready build. Without running this command, your application might fail to deploy or function improperly.
+
+## Depploying your portfolio
+
+1.  **Import the repo.**
+2.  **Deploy**
+
+Check out their [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
