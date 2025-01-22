@@ -8,13 +8,12 @@ export default function Projects() {
   return (
     <div className="section mb-24">
       <p className="section-header">Projects</p>
-
       <div className="flex flex-col gap-8">
         {projects.map((project, idx) => (
           <Link
             href={project.href}
             key={idx}
-            className="flex flex-col gap-2 w-full group "
+            className="flex flex-col gap-2 w-full group bg-neutral-50 hover:border-neutral-200 border-2 border-white rounded-xl p-6 "
           >
             <div className="flex items-center gap-2">
               <p className="text-title group-hover:underline">{project.name}</p>
