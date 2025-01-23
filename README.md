@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  A beautiful, customizable portfolio template built with Next.js, Tailwind CSS, and TypeScript. Perfect for showcasing your projects, skills, and experiences.
+  A beautiful, customizable portfolio template built with Next.js, Tailwind CSS, and TypeScript. This is a perfect way to showcase your projects, skills, and experiences.
 </p>
 
 ## Demo
@@ -47,9 +47,9 @@ pnpm dev
 bun dev
 ```
 
-5. **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**:
+5. **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**
 
-**_P.S. When developing and making changes, it's best practice to create a new branch for your work and submit a pull request for review before merging it into the main (or prod) branch. This ensures better collaboration, code quality, and minimizes the risk of introducing errors into production._**
+**‼️ P.S. When developing and making changes, it's best practice to create a new branch for your work and submit a pull request for review before merging it into the main (or prod) branch. This ensures better collaboration, code quality, and minimizes the risk of introducing errors into production.**
 
 <h1>Navigating this project</h1>
 
@@ -179,7 +179,7 @@ body {
 </details>
 
 **globals.css:**
-The global.css file defines the global styles for the project using Tailwind CSS and custom CSS rules. It is divided into several layers and focuses on the following key functionalities:
+The global.css file defines the global styles for the project using Tailwind CSS and custom CSS rules. 
 
 <details>
 <summary><code>layout.tsx</code></summary>
@@ -259,7 +259,7 @@ export default function RootLayout({
 </details>
 
 **layout.tsx:**
-The layout.tsx file serves as the main layout component for your Next.js application. It sets up the structure, global styles, and essential metadata for the application, ensuring consistency and SEO optimization across all pages.
+The layout.tsx file serves as the main layout component for your portfolio application. It sets up the structure, global styles, and essential metadata for the application, ensuring consistency and SEO optimization across all pages.
 
 <details>
 <summary><code>components/Experience/data.ts</code></summary>
@@ -306,7 +306,7 @@ export const experiences: Experience[] = [
 </details>
 
 **data.ts for Experience:**
-The data.ts file in the experience folder is where your information on your experiences go. You can add as many opjects in the array to then get mapped and displayed in the experience component.
+The data.ts file located in the experience folder is where you can define all your experience details. Simply add as many objects as needed to the array, and they will automatically be mapped and displayed within the **experience component**.
 
 <details>
 <summary><code>components/Projects/data.ts</code></summary>
@@ -373,25 +373,25 @@ export const projects: Projects[] = [
 </details>
 
 **data.ts for Projects:**
-The data.ts file in the projects folder is where your information on your projects go. You can add as many opjects in the array to then get mapped and displayed in the project component.
+The data.ts file in the projects folder is where you can define all your project details. Add as many objects as you'd like to the array, and they will automatically be mapped and displayed within the **project component**.
 
 **Public folder:**
-The public folder holds all the images, icons, resume, etc, needed for your project.
+The public folder holds all of your images, icons, resume(s) and etc. You can update this folder with more content related to your project needs. 
 
-<h1>Why you should use this template</h1>
+<h1>Why should you use this template❓</h1>
 
-1. **Because its cool!**
+1. **Because, it's cool!**
 
-2. **Clean and scalable code**
+2. **Clean and scalable code.**
 
-3. **Seo optimized**
+3. **SEO optimized.**
 
-4. **Great web performance**
+4. **Great web performance.**
 <p >
   <img src="./public/template-images/performance.png" alt="Project Banner" width="600">
 </p>
 
-5. **Ready to deploy in minutes**
+5. **Ready to deploy in minutes!**
 
 <h1>Deploying on vercel</h1>
 
@@ -403,27 +403,26 @@ The public folder holds all the images, icons, resume, etc, needed for your proj
 npm run build
 ```
 
-## Running npm run build is an essential step before deploying because:
+## The importance of <code style="color: #e63946;">npm run build</code> 
+
 
 1. **Optimized Production Build:**
+   
+- This command creates an optimized production version of your portfolio application --- minimizing file sizes and improving performance.
 
-This command creates an optimized production version of your Next.js application, minimizing file sizes and improving performance for end-users.
+2. **Error Detection:**
 
-2. **Static File Generation:**
+- The build process helps catch potential errors that might occur in production, such as incorrect imports or issues with external dependencies.
 
-If your project includes static pages (e.g., via getStaticProps), this command generates those pages so they can be served efficiently.
+3. **Deployment Readiness:**
 
-3. **Error Detection:**
+- Most deployment platforms, including Vercel, expect a production-ready build. Without running this command, your application might fail to deploy or function improperly.
 
-The build process helps catch potential errors that might occur in production, such as incorrect imports or issues with external dependencies.
+## Deploying your portfolio
 
-4. **Deployment Readiness:**
+1.  **Import the portfolio repo.**
+2.  **Click Deploy.**
+3.  **Now you have a fully functional portfolio ready to showcase. 🎉**
 
-Most deployment platforms, including Vercel, expect a production-ready build. Without running this command, your application might fail to deploy or function improperly.
 
-## Depploying your portfolio
-
-1.  **Import the repo.**
-2.  **Deploy**
-
-Check out their [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Want to learn more? Check out their [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
