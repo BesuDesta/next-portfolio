@@ -393,6 +393,8 @@ The public folder holds all of your images, icons, resume(s) and etc. You can up
 
 5. **Ready to deploy in minutes!**
 
+6. **Mobile responsive.**
+
 <h1>Deploying on vercel</h1>
 
 [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
