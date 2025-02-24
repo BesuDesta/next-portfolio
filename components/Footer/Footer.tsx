@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
         <div className="flex gap-3 items-center">
           <Link
-            href="https://github.com/Nan3rC0re/next-portfolio-template"
+            href="https://github.com/BesuDesta"
             target="_blank"
             className="bg-neutral-800 text-white text-sm flex gap-1 px-3 py-1 hover:bg-neutral-700 transition-colors duration-200 rounded-full items-center"
           >
@@ -23,7 +23,7 @@ export default function Footer() {
           <p className=" flex gap-1 text-muted-foreground text-sm">
             Made by
             <Link
-              href="https://www.linkedin.com/in/nana-kofi-okae"
+              href="https://www.linkedin.com/in/besufekad-desta/"
                target="_blank"
               className="text-neutral-800 hover:underline "
             >
