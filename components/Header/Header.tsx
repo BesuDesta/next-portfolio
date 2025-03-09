@@ -16,30 +16,30 @@ export default function Header() {
           />
         </div>
         <div className="w-full">
-          <p className="text-lg text-neutral-800">Nana Kofi Okae</p>
+          <p className="text-lg text-neutral-800">Besu Desta</p>
           <p className="text-muted-foreground ">
-            Frontend and Design Engineer / designing for fun.
+            Computer Science Undergrad Student/Aspiring Software Engineer.
           </p>
           {/* You can update and add your links here */}
           <div className="flex flex-wrap  gap-4 mt-2">
             <Link
-              href="https://www.linkedin.com/in/nana-kofi-okae"
+              href="https://www.linkedin.com/in/besufekad-desta/"
               target="_blank"
               className="icons"
             >
               <Linkedin size={18} />
-              <p className="icon-text"> linkedin.com/in/nana-kofi-okae</p>
+              <p className="icon-text"> linkedin.com/in/besufekad-desta</p>
             </Link>
             <Link
-              href="https://github.com/Nan3rC0re/next-portfolio-template"
+              href="https://github.com/BesuDesta"
               target="_blank"
               className="icons"
             >
               <Github size={18} />
-              <p className="icon-text"> github.com/Nan3rOkae</p>
+              <p className="icon-text"> github.com/BesuDesta</p>
             </Link>
             <Link
-              href="/Nana_s_Resume_2025.pdf"
+              href="/Software Engineering Resume (1).pdf"
               target="_blank"
               className="icons"
             >
